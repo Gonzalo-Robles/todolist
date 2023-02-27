@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(27, 26, 27);
+  text-align: center;
+}
+
+.input {
+  width: auto;
+  height: 40px;
+  margin: 5px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.boton-agregar {
+  width: 40px;
+  height: 30px;
+  margin: 1px;
+  border-radius:black;
+  padding-top: 0%;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: rgb(255, 6, 46);
+  color: white;
+  border-color: black;
+
+}
+h1{
+  color: white;
+}
+
+.boton-agregar:hover ,.boton-agregar:hover, .boton-editar:hover {
+  opacity: 0.9;
+}
+
+.item-input {
+  height: 40px;
+  width: 180px;
+  padding: 0 20px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.boton-editar, .boton-remover {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background: none;
+  color: #ed0b0b;
+  font-size: 1rem;
+  font-family: 'Architects Daughter', cursive;
+}
+
